@@ -1,0 +1,21 @@
+/**
+ * styles.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+ * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 0;
+}
+
+// Moduels
+@import "modules/variables";
+@import "moduels/mixins";
+
+
+// Pages
+@import "pages/index.scss";
+
+
+
